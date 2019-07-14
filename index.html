@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dan Dan the Massage Therapy Man</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Materialize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="wide_container">
+      <div class="title">
+      <h2>Dan Evans ☽ Massage Therapist</h2>
+      </div>
+      <div class="center_container">
+        <img class="therapicture circle responsive-img" src="./moon.jpg" />
+        <div class="about_us">
+          <p class="about_text">
+            Hi, my name is Dan Evans, licensed massage therapist. I offer x y
+            and/or z here at my practice, with a focus on a and b with my
+            customers. My rate is f per gallon, and I accept the following
+            insurances: [*near-silent, grotesque wailing*], and Apple Health.
+          </p>
+          (image(s) of massage-related things goes here as a background)
+        </div>
+      </div>
+      <div class="contact_sheet row">
+        <h4 class="contact_title">Contact form for information and scheduling!</h4>
+
+        <p>Click here to send an email directly instead!</p>
+        <div class="form_container">
+          <form
+            id="fs-frm"
+            name="simple-contact-form"
+            accept-charset="utf-8"
+            action="https://formspree.io/danny3evans@gmail.com"
+            method="post"
+          >
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name</label>
+              <input
+                type="text"
+                name="name"
+                id="full-name"
+                placeholder="First and Last name"
+                required=""
+              />
+              <label for="email-address">Email Address</label>
+              <input
+                type="email"
+                name="_replyto"
+                id="email-address"
+                placeholder="your@email.com"
+                required=""
+              />
+              <label for="message">Message</label>
+              <textarea
+                rows="5"
+                name="message"
+                id="message"
+                placeholder="Your message here! If applicable, please include your preferred times, duration, styles, and favorite dog!"
+                required=""
+              ></textarea>
+              <input
+                type="hidden"
+                name="_subject"
+                id="email-subject"
+                value="Contact Form Submission"
+              />
+            </fieldset>
+            <button class="btn waves-effect" type="submit" value="Submit" >Submit
+              <i class="material-icons right">send</i>
+              </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

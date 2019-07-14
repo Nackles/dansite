@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+}
+
+html {
+    background-color:#5995DA;
+}
+
+h2, h4 {
+    margin-top:0;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+.title {
+    background-color: black;
+    border-radius: 3px;
+    FF652F
+}
+
+h4 {
+    margin-top:10px;
+}
+
+.therapicture {
+    padding:10px
+}
+
+p {
+    text-align: justify;
+    padding: 0 10px;
+    }
+
+.wide_container {
+    color: #fff;
+    background-color: #FFD700;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:100%;
+    border-radius: 3px;
+    }
+
+.center_container {
+    border-bottom: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.about_text {
+    background-color: salmon;
+    padding: 20px;
+    margin-right:10px;
+    overflow:hidden;
+}
+
+.contact_title {
+    background-color: #FF652F;
+    border-radius:3px;
+}
